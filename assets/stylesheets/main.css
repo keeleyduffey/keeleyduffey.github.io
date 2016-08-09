@@ -101,14 +101,6 @@ cite, em {
 BACKGROUND
 =============================================
 */
-/*
-body {
-  background: #fff;
-  background: radial-gradient(#fff, #FFCADC);
-  height: 100%;
-
-}
-*/
 #primary {
   max-width: 1100px;
   margin: 0 auto;
@@ -145,6 +137,7 @@ Name
 .nav li {
   display: inline-block;
   padding: 20px 20px 40px;
+  text-transform: uppercase;
 }
 
 /*=============================================
@@ -191,12 +184,26 @@ nav a:hover {
   margin: 0 100px;
 }
 
-
 .hero {
   text-align: center;
 }
 
-
 #quote {
   padding: 40px 20px 10px;
+}
+.main p {
+  font-size: 16px;
+}
+
+/*
+  ========================================
+  Resume
+  ========================================
+*/
+#download {
+  font-size: 14px;
+  text-align: center;
+}
+.panel.content li {
+  list-style-type: circle;
 }
