@@ -1,13 +1,13 @@
-$('.accordion .content').eq(0).addClass('open');
+// $('.accordion .content').eq(0).addClass('open');
 
-$('.accordion h2').on('click', function (event) {
-	var header = $(event.target);
-  var panel = header.next();
+// $('.accordion h2').on('click', function (event) {
+// 	var header = $(event.target);
+//   var panel = header.next();
   
-  $('.accordion .content').removeClass('open');
+//   $('.accordion .content').removeClass('open');
   
-  panel.addClass('open');
-});
+//   panel.addClass('open');
+// });
 
 
 // $('.accordion2 .content2').eq(0).addClass('open');
@@ -20,3 +20,8 @@ $('.accordion h2').on('click', function (event) {
   
 //   panel2.addClass('open');
 // });
+
+$(".nav > a").click(function() {        
+    $(".nav > a").removeClass("active"); 
+    $(this).addClass("active");          
+})
