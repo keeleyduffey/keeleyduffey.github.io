@@ -61,11 +61,9 @@ h6,
 p, 
 a, 
 li {
-/*  margin-bottom: 32px;
-*/  text-decoration: none;
+  text-decoration: none;
   line-height: 1.6em;
   color: #5c5c5c;
-  /*font-variant: small-caps;*/
   font-weight: 300;
 }
 h2, 
@@ -80,8 +78,7 @@ li {
 }
 h1 {
   font-size: 40px;
-/*  font-weight: 200;
-*/  font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One', cursive;
 }
 h2 {
   font-size: 32px;
@@ -212,6 +209,7 @@ Header
   display: inline-block;
   padding: 20px 20px 40px;
   text-transform: uppercase;
+  font-size: 14px;
 }
 /*=============================================
       Links
