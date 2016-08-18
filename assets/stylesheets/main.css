@@ -70,27 +70,7 @@ body {
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
-h2 {
-  font-size: 32px;
-  margin-bottom: 15px;
-}
-h3 {
-  font-size: 28px;
-}
-h4 {
-  font-size: 24px;
-}
-h5 {
-  font-size: 20px;
-  margin-bottom: 5px;
-}
-h6 {
-  font-size: 18px;
-} 
-p {
-  font-size: 15px;
-  line-height: 22px;
-}
+/*================TYPOGRAPHY===========*/
 strong {
   font-weight: 400;
 }
@@ -99,10 +79,8 @@ em {
   font-style: italic;
 }
 
-
 .container {
-  width: auto;
-  /*max-width: 680px;*/
+  width: 80%;
   padding: 30px 15px 20px;
   margin: auto;
   text-decoration: none;
@@ -113,37 +91,36 @@ em {
   margin: 20px 0;
 }
 
-.landing {
-  padding: 100px 150px 0;
-  text-align: center;
-  text-decoration: none;
-}
-.landing a:hover {
-  text-decoration: none;
-}
-
+/*==========HEADER======*/
 .page-header {
-  font-size: 34px;
   font-family:'Poiret One', cursive;
   letter-spacing: .25em;
   text-transform: uppercase;
   color: #5c5c5c;
+  text-align: center;
+}
+
+.page-header a:hover{
+  text-decoration: none;
+  color: #000;
+}
+
+.page-header .logo {
+  margin: 0 auto;
+  width: 25%;
 }
 
 .quote h4 {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 100px;
+  padding-top: 30px;
 }
-/*
-  ========================================
-  Nav
-  ========================================
-*/
+
+/*===========NAV=============*/
 .nav li {
   display: inline-block;
   padding: 20px 20px 40px;
   text-transform: uppercase;
-  font-size: 14px;
 }
 
 .section-link a {
@@ -159,44 +136,36 @@ em {
 
 .navbar {
   text-align: center;
+  font-size: 12px;
 }
 .navbar a:hover {
   text-decoration: none;
-}
-/*=============================================
-      Links
-  =============================================*/
-.nav a {
-  color: #5c5c5c;
-  font-size: 12px;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
-}
-.nav a:hover {
-  text-decoration: none;
+  color: #000;
 }
 
-.resume li {
-  list-style-type: none;
-}
-
-
-/*============Resume ===========*/
+/*============RESUME===========*/
 .download {
   text-align: center;
   padding-bottom: 50px;
 }
-
-.col-md-4 {
-  padding-top: 5px;
+.resume .col-md-4 {
+  padding-top: 8px;
 }
-/*==============================================
-  Connect
-  ==============================================*/
-  .content {
-    text-align: center;
-    text-decoration: none;
-    padding-top: 60px;
-  }
-  .content a:hover {
-    text-decoration: none;
-  }
+.resume li {
+  list-style-type: none;
+}
+/*==========CONNECT================*/
+.content {
+  text-align: center;
+  text-decoration: none;
+}
+.content a:hover {
+  text-decoration: none;
+}
+#keeley{
+  width:90%;
+  max-width: 275px;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
