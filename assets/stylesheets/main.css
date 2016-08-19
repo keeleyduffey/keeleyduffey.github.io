@@ -165,7 +165,50 @@ em {
 #keeley{
   width:90%;
   max-width: 275px;
-  border-radius: 50%;
+/*  border-radius: 50%;*/
   margin: 0 auto;
   padding-bottom: 30px;
 }
+
+/* Tablet/iPads (Portrait and Landscape*/
+@media only screen and (min-width: 768px) and (max-width: 960px){
+  .container{
+    width:95%;
+  }
+
+  .navbar .page-header .logo{
+    margin: auto;
+    display: block;
+    width: 35%;
+  }
+
+
+/* Smaller Tablets (Portrait and Landscape*/
+@media only screen and (min-width: 569px) and (max-width: 767px){
+  .container{
+    width:95%;
+  }
+
+  .navbar .page-header .logo{
+    margin: auto;
+    display: block;
+    width: 65%;
+  }
+
+
+/* Smart Phones (Portrait and Landscape*/
+@media only screen and (min-width: 240px) and (max-width: 568px){
+  .container{
+    width:95%;
+  }
+
+  .navbar .page-header .logo{
+    margin: auto;
+    display: block;
+    width: 95%;
+  }
+
+  .nav{
+    display: block;
+
+  }
