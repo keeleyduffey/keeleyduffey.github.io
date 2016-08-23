@@ -183,6 +183,9 @@ em {
   }
 
 
+
+
+
 /* Smaller Tablets (Portrait and Landscape*/
 @media only screen and (min-width: 569px) and (max-width: 767px){
   .container{
@@ -195,6 +198,23 @@ em {
     width: 65%;
   }
 
+  .navbar .nav ul{
+    text-align: center;
+    padding: 2% 1%;
+  }
+
+  .navbar .nav li .section-link{
+    display: block;
+    width: 100%
+  }
+
+  .navbar .nav li .section-link a{
+    margin-bottom: 2px;
+    text-align: center;
+  }
+  .navbar .nav li .section-link a:hover, .navbar .nav li .section-link a.active{
+    display: block;
+  }
 
 /* Smart Phones (Portrait and Landscape*/
 @media only screen and (min-width: 240px) and (max-width: 568px){
@@ -208,7 +228,20 @@ em {
     width: 95%;
   }
 
-  .nav{
-    display: block;
+  .navbar .nav ul{
+    text-align: center;
+    padding: 2% 1%;
+  }
 
+  .navbar .nav li .section-link{
+    display: block;
+    width: 100%
+  }
+
+  .navbar .nav li .section-link a{
+    margin-bottom: 2px;
+    text-align: center;
+  }
+  .navbar .nav li .section-link a:hover, .navbar .nav li .section-link a.active{
+    display: block;
   }
